@@ -1,0 +1,21 @@
+{
+    "name": "jaapio/xml",
+    "description": "Xml library to work with XmlReader and xpaths",
+    "require": {
+        "doctrine/lexer": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jaapio\\Xml\\" : "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jaapio",
+            "email": "jaap@ijaap.nl"
+        }
+    ]
+}
